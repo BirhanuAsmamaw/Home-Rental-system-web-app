@@ -8,14 +8,12 @@ import { RouterProvider } from 'react-router-dom';
 import router from './screens/router';
 import App from './App';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
 // root.render(
 //   <BrowserRouter>
 //     <App />
